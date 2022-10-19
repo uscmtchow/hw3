@@ -17,7 +17,7 @@ public:
     void pop();  // throws std::underflow_error if empty
     const T& top() const; // throws std::underflow_error if empty
     // Add other members only if necessary
-    std::vector<T*> vec;
+    std::vector<T> vec;
     int top;
 };
 
